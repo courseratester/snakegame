@@ -31,7 +31,7 @@ export default function Home() {
           return prev;
         }
 
-        let newSnake = [newHead, ...prev];
+        const newSnake = [newHead, ...prev];
 
         // Eat food
         if (newHead.x === food.x && newHead.y === food.y) {
